@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+/* 나브바수정 */
+.navbar.navbar-dark{
+    background-color: transparent !important;
+}
+.navbar-marketing.navbar-dark.navbar-scrolled{
+    background-color:teal !important;
+}
+
+
+/* 타이틀애니 */
+.txt-rotate{
+    color:dodgerblue;
+}
+
+
+
+
+
+/* 차트 */
+.chart {
+    position: relative;
+    display: inline-block;
+    width: 110px;
+    height: 110px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .chart canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .percent {
+    display: inline-block;
+    line-height: 110px;
+    z-index: 2;
+  }
+  .percent:after {
+    content: '%';
+    margin-left: 0.1em;
+    font-size: .8em;
+  }
+
+ .video{background-image: url(../img/animore.jpg);}
+
+.my-profile{background-image: url(../img/pngwing.com\ \(5\).png); position: relative;
+}
+
+.my-profile .txt-box h4{
+    font-size: 30px;
+    color:#fff;
+    margin-bottom: 15px;
+}
+.my-profile .txt-box p{
+    font-size: 22px;
+
+}
+.img-box{
+    position: absolute;
+    top:200px;
+    right:0;
+    width:236px;
+    height: 315px;
+    background: url(../img/200.jpg)no-repeat;
+}
+
+.img-wrap{
+    margin-top: 15px;
+}
+.img-wrap img{
+    width:100%;
+}
+.ccbox .card-body{
+    transition: all 0.2s linear;
+}
+.ccbox .card-body:hover{
+    transform: scale(1.05);
+}
+
+
+.overlay-80:before{
+   opacity: 0.7;
+}
+.page-header{background-image: url(../img/dnwn.png); padding-bottom: 300px;}
+.page-header-content{padding:300px 0 50px !important;}
+
+.lity-container{
+    max-width: 800px;
+    max-height: 800px;
+}
+.lity-close{
+    position: absolute;
+    color:darkgray;
+    font-size: 50px;
+}
+.lity-close:hover{
+    color:#fff;
+    font-size: 50px;
+}
+/* 
+.page-header{background-image: url(../img/header-bg.jpg); padding-bottom: 300px;}
+.page-header-content{padding: 300px 0 50px !important;} */
+
+
+
+
+
+/* 나브바모바일수정 */
+
+@media (max-width: 991.98px){
+.navbar-marketing.bg-transparent.navbar-dark{
+    background-color: transparent !important;
+}
+.navbar-marketing.navbar-dark.navbar-scrolled{
+    background-color:teal !important;
+}
+}
